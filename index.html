@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mood Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧘 Mood Tracker</h1>
+
+  <div class="form">
+    <select id="mood">
+      <option value="">Select Mood</option>
+      <option value="😊 Happy">😊 Happy</option>
+      <option value="😐 Neutral">😐 Neutral</option>
+      <option value="😢 Sad">😢 Sad</option>
+    </select>
+    <input type="text" id="note" placeholder="Write a note..." />
+    <button onclick="saveMood()">Save</button>
+  </div>
+
+  <h2>History</h2>
+  <ul id="history"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
